@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.calculator{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #151515;
+    box-shadow: 1px 1px 20px rgb(139, 139, 139);
+    width: 350px;
+    background-image: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.1)),url(./images.jpg);
+}
+.calculator-display{
+    height: 50px;
+    width: 350px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+}
+.btn:hover{
+    background-color: rgb(94, 92, 92);
+}
+.bt{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid #fff;
+}
+.bt:hover{
+    background-color: rgb(167, 41, 3);
+}
+.b{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: 1px solid #fff;
+}
+.b:hover{
+    background-color: rgb(2, 2, 48);
+}
